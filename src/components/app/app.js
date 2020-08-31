@@ -7,6 +7,7 @@ import TrainingList from "../trainings_list";
 import Education from "../education";
 import Interests from "../interests";
 import Languages from "../languages";
+import CvService from "../../services/CvService";
 
 import './app.css'
 
@@ -27,6 +28,12 @@ const App = () => {
         {label:'work with bigdinka', id:'gfh4456'},
         {label:'work in Terrasoft', id:'fh4hf45'}
     ]
+
+    console.log(work);
+
+    const cvService = new CvService()
+    cvService.getWork()
+        .then((res)=>{console.log(res)})
 
 
 
