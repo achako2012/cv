@@ -20,4 +20,8 @@ export default class CvService {
         return this.getResource(`/skill/`)
     }
 
+    getTrainings() {
+        return this.getResource(`/training/`)
+    }
+
 }

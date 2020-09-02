@@ -9,7 +9,7 @@ export default class CoreSkills extends Component{
 
     constructor(){
         super();
-        this.updateWork()
+        this.updateSkills()
     }
 
     cvService = new CvService()
@@ -17,7 +17,7 @@ export default class CoreSkills extends Component{
         skills:[]
     }
 
-    updateWork(){
+    updateSkills(){
         this.cvService.getSkills()
             .then(arr =>{
                 this.setState({skills: arr})})

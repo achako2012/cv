@@ -1,13 +1,21 @@
-import React from "react";
+import React, {Component} from "react";
 
-const TrainingListItem = ({label}) => {
-    return (
+
+
+export default class TrainingListItem extends Component {
+    constructor(props) {
+        super(props)
+    }
+
+    render(){
+        const {training} = this.props
+
+        return (
             <div className="app-list-item d-flex justify-content-between">
                 <span className="app-list-item-label">
-                    {label}
+                    {training}
                 </span>
             </div>
-    )
+        )
+    }
 }
-
-export default TrainingListItem

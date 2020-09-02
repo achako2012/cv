@@ -7,30 +7,17 @@ import TrainingList from "../trainings_list";
 import Education from "../education";
 import Interests from "../interests";
 import Languages from "../languages";
-import CvService from "../../services/CvService";
 
 import './app.css'
 
 const App = () => {
 
-    const core = [
-        {label:'Papuzh pauk', id:'123sqas'},
-        {label:'Love with Bigdinka', id:'mbnj121'},
-        {label:'Budgies love me!', id:'hjh56212s'}
-    ]
-
-    const training = [
-        {label:'How feed papuzka', id:'gjy12jyu'},
-        {label:'Delaniya smakolochkiv', id:'fgh54h'}
-    ]
-
-
     return (
         <div className="app">
             <AppHeader/>
             <Objective/>
-            <CoreSkills posts={core}/>
-            <TrainingList posts={training}/>
+            <CoreSkills/>
+            <TrainingList/>
             <Education/>
             <WorkList/>
             <Interests/>
