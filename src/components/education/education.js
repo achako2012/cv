@@ -2,11 +2,20 @@ import React from "react";
 
 import './education.css'
 
-const Education = () => {
+const Education = ({university, faculty}) => {
+
     return (
-        <h1 className="app-list">
-            Eduaction info!
-        </h1>
+        <>
+            <h1>
+                Educaition
+            </h1>
+            <h2>
+                {faculty}
+            </h2>
+            <h3>
+                {university}
+            </h3>
+        </>
     )
 }
 

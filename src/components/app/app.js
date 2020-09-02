@@ -12,15 +12,23 @@ import './app.css'
 
 const App = () => {
 
+    const objective = 'QA Automation Engineer with Java and JS programming experience at Product or Outsource company with possibilities to improve QA Automation Engineer skills'
+    const education = {
+        university: 'Pryazovkiy State Technical University',
+        faculty: 'Faculty Transport Technology, speciality Organization of International Transport'
+    }
+
+    const interests = 'music, active sport, travel'
+
     return (
         <div className="app">
             <AppHeader/>
-            <Objective/>
+            <Objective label={objective}/>
             <CoreSkills/>
             <TrainingList/>
-            <Education/>
+            <Education {...education}/>
             <WorkList/>
-            <Interests/>
+            <Interests interests={interests}/>
             <Languages/>
         </div>
         )
