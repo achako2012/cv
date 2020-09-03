@@ -5,7 +5,7 @@ import './app_header.css'
 const AppHeader = () => {
     return (
         <div className="app_header d-flex">
-            <h1>Тут фото</h1>
+            <img src={process.env.PUBLIC_URL + '/img/photo.jpeg'} alt='photo'></img>
             <h2>Тут контактн инфо</h2>
         </div>
     )
