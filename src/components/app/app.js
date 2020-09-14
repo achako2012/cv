@@ -34,7 +34,7 @@ export default class App extends Component {
                 {/*Render Function pattern*/}
                 <TrainingList
                     getData={this.cvService.getTrainings}
-                    renderItem={(item) => `${item.school} - ${item.training}`}/>
+                    renderTraining={({school, training}) => `${school} - ${training}`}/>
                 <Education {...education}/>
                 <WorkList getData={this.cvService.getWork}/>
                 <Interests interests={interests}/>

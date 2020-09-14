@@ -20,10 +20,10 @@ export default class TrainingList extends Component {
     renderItems(arr) {
         return arr.map((item) => {
             const {id} = item
-            const training = this.props.renderItem(item)
+            const content = this.props.renderTraining(item)
             return (
                 <li key={id} className="list-group-item">
-                    {training}
+                    {content}
                 </li>
             )
         })
@@ -32,6 +32,7 @@ export default class TrainingList extends Component {
     render(){
 
         const {itemList} = this.state
+
 
         if (!itemList) {
             return <Spinner/>
