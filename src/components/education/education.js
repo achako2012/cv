@@ -7,7 +7,7 @@ const Education = ({university, faculty}) => {
     return (
         <>
             <h1 className="app-list">
-                Educaition
+                Education
             </h1>
             <div className="list-group">
                 <span className="list-group-item">

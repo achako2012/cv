@@ -4,22 +4,21 @@ module.exports = {
             id: 1,
             company: "Terrasoft",
             position: "QA engineer",
-            responsobilities: "\"UI Automation Testing with Cucumber; API Automation with Axios and Mocha library; Requirements review; Functional and usability testing; Check Lists, Test Cases, and Bug reports creating; Manual testing; Feature requests and usability remarks composing\n" +
-                "",
+            responsobilities: "UI Automation Testing with Cucumber; API Automation with Axios and Mocha library; Requirements review; Functional and usability testing; Check Lists, Test Cases, and Bug reports creating; Manual testing; Feature requests and usability remarks composing",
             date: "March 2020 — Present"
         },
         {
             id: 2,
             company: "Smart Trader Labs",
             position: "QA engineer",
-            responsobilities: "UI and API Automation Testing with Java; Requirements review; Functional and usability testing; Check Lists, Test Cases, and Bug reports creating; Manual black-box testing; Feature requests and usability remarks composing\"",
+            responsobilities: "UI and API Automation Testing with Java; Requirements review; Functional and usability testing; Check Lists, Test Cases, and Bug reports creation; Manual black-box testing; Feature requests and usability remarks composing",
             date: "April 2019 — Februar 2020"
         },
         {
             id: 3,
             company: "Freelance (Web application)",
             position: "QA engineer",
-            responsobilities: "Manual black-box testing; Functional and usability testing; Check Lists, Test Cases, Bug reports creation; Feature requests and usability remarks composing\"",
+            responsobilities: "Manual black-box testing; Functional and usability testing; Check Lists, Test Cases, Bug reports creation; Feature requests and usability remarks composing",
             date: "February 2019 — April 2019"
         },
     ],
@@ -35,11 +34,11 @@ module.exports = {
         },
         {
             id: 3,
-            skill: "Test documentation: Test Plans (in accordance to IEEE 829), Check-lists, and Test Cases"
+            skill: "Test documentation: Test Plans (in accordance to IEEE 829), Check lists, and Test Cases"
         },
         {
             id: 4,
-            skill: "Understanding of Agile (Scrum and Kanban) methodology"
+            skill: "Experience in Agile (Scrum and Kanban) methodology"
         },
         {
             id: 5,
@@ -55,7 +54,7 @@ module.exports = {
         },
         {
             id: 8,
-            skill: "Understanding of client-server architecture; micro-servers architecture; REST architecture and SOAP protocol; Knowledge of HTTP protocol"
+            skill: "Clear understanding of client-server architecture; micro-servers architecture; REST architecture and SOAP protocol; Knowledge of HTTP protocol"
         },
         {
             id: 9,
@@ -63,7 +62,7 @@ module.exports = {
         },
         {
             id: 10,
-            skill: "Understanding of Selenium WebDriver framework and Selenium W3C protocol"
+            skill: "Clear understanding of Selenium WebDriver framework and Selenium W3C protocol"
         },
         {
             id: 11,
@@ -104,7 +103,7 @@ module.exports = {
         },
         {
             id: 3,
-            training: "Web Servers testing",
+            training: "Web servers testing",
             school: "QALight"
         },
         {
@@ -124,17 +123,17 @@ module.exports = {
         },
         {
             id: 7,
-            training: "Automated Software Testing with WebdriverIO",
+            training: "Automated Software Testing with WebDriverIO",
             school: "Udemy"
         }
     ],
 
-    "objective": 'QA Automation Engineer with Java and JS programming experience at Product or Outsource company with possibilities to improve QA Automation Engineer skills',
+    "objective": 'QA Automation Engineer with Java and JS programming experience in Product or Outsource company with possibilities to improve QA Automation Engineer skills',
 
     "education": {
         university: 'Pryazovkiy State Technical University',
-        faculty: 'Faculty Transport Technology, speciality Organization of International Transport'
+        faculty: 'Faculty of Transport Technology, speciality Organization of International Transport'
     },
 
-    "interests": 'music, active sport, travel'
+    "interests": 'Music, Active sport, Travel'
 }

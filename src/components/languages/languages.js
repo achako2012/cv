@@ -11,7 +11,7 @@ const Languages = () => {
             </h1>
             <ul className="list-group">
                 <li className="list-group-item">
-                    Russsian, Ukraine - native
+                    Russian, Ukraine - native
                 </li>
                 <li className="list-group-item">
                     English - Intermediate
