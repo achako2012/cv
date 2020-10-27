@@ -1,0 +1,35 @@
+.app-list {
+    margin-top: 50px;
+}
+.app-list .list-group-item {
+    padding: 20px 35px 10px 35px;
+    margin-top: 10px;
+}
+
+.cv_header {
+    display: inline-flex;
+    /*align-items: flex-end;*/
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cv_header img {
+    border-radius: 10px;
+    width: 155px;
+    height: 200px;
+    font-size: 26px;
+}
+
+.cv_header h2 {
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.contact-content {
+    padding-left: 100px;
+}
+
+.links {
+    margin-bottom: 1rem;
+}
+

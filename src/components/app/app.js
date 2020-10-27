@@ -1,11 +1,10 @@
 import React, {Component} from 'react'
-import AppHeader from "../app_header";
 import WorkList from "../work_list";
-import {Objective, Education, Interests, Languages} from "../cv";
+import {Objective, Education, Interests, Languages, CvHeader} from "../cv_page";
 import ItemList from "../item_list";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './app.css'
-import About from "../about/about";
+import About from "../about_page/about";
 import Header from "../header/header";
 
 const config = require('../../server_imulation/config')
@@ -19,7 +18,7 @@ export default class App extends Component {
                 <Header/>
                 <div className="app">
                     <Route path='/cv'>
-                        <AppHeader/>
+                        <CvHeader/>
                         <Objective label={config.objective}/>
                         <ItemList label={'Core Skills'}
                                   getData={config.skillList}

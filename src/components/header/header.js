@@ -1,6 +1,12 @@
 import React, {useState} from 'react';
 
+import {Link} from "react-router-dom";
+import {FaLinkedinIn} from "react-icons/fa";
+import {IconContext} from "react-icons";
+import { VscGithub } from "react-icons/vsc";
+
 import './header.css'
+
 
 const Header = () => {
 
@@ -9,19 +15,21 @@ const Header = () => {
             <div className="inner_header">
                 <div className="navigation">
                     <div>
-                        <a href="/components/">About</a>
+                        <Link to="/about">About</Link>
                     </div>
                     <div>
-                        <a href="https://github.com/reactstrap/reactstrap">CV</a>
-                    </div>
-                    <div>
-                        <a href="https://github.com/reactstrap/reactstrap">Blog</a>
+                        <Link to="/cv">CV</Link>
                     </div>
                 </div>
                 <div className="social">
-                    <a href="/components/">Link</a>
-                    <a href="/components/">Link</a>
-                    <a href="/components/">Link</a>
+                    <IconContext.Provider value={{ style: {fontSize: '30px', color: "white"}}}>
+                        <a href="https://www.linkedin.com/in/alexander-chako-907624154/">
+                            <FaLinkedinIn/>
+                        </a>
+                        <a href="https://github.com/achako2012?tab=repositories">
+                            <VscGithub/>
+                        </a>
+                    </IconContext.Provider>
                 </div>
             </div>
         </div>
