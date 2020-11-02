@@ -12,14 +12,12 @@ const Header = () => {
 
     return (
         <div className="header">
-            <div className="inner_header">
-                <div className="navigation">
-                    <div>
-                        <Link to="/about">About</Link>
-                    </div>
-                    <div>
-                        <Link to="/cv">CV</Link>
-                    </div>
+            <nav>
+                <div>
+                    <Link to="/about">About</Link>
+                </div>
+                <div>
+                    <Link to="/cv">CV</Link>
                 </div>
                 <div className="social">
                     <IconContext.Provider value={{ style: {fontSize: '30px', color: "white"}}}>
@@ -31,7 +29,7 @@ const Header = () => {
                         </a>
                     </IconContext.Provider>
                 </div>
-            </div>
+            </nav>
         </div>
     );
 }

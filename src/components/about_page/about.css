@@ -1,4 +1,63 @@
-.about {
-    display: inline-flex;
-    justify-content: space-between;
+.row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 3em 5%;
+}
+
+#text-main {
+    float: left;
+    margin:0 3.84615385% 0 0;
+    width: 39.42307692%;
+    padding-top: 1.5em;
+}
+
+#img-main {
+    float:left;
+    width: 56.73076923%;
+}
+
+.snaps{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.snaps img{
+    display: inline-block;
+    margin-right: 1.9%;
+    width: 140px;
+    height: 125px;
+    border-radius: 3px;
+    /*margin: 2% 1% 2% 0;*/
+}
+
+.columns {
+    display: block;
+    float: left;
+    margin: 0;
+}
+
+.bar-chart{
+    list-style: none;
+    height: 450px;
+    position: relative;
+    padding: 0;
+    margin: 0px;
+}
+.bar-chart li{
+    margin: 0 2% 0 0;
+    display: inline-block;
+}
+.bar-chart li.axis{
+    width: 8%;
+    border: 0;
+    border-right: #DDD solid 1px;
+    height: 450px;
+    background: #fafafa;
+}
+
+.bar-chart .label {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: -0.6em 0 92px 0;
 }
